@@ -10,7 +10,6 @@ function App() {
       <div className="container">
         <Header/>
         <Main_Items/>
-        <p className='bg-txt'>PORTFOLIO</p>
     </div>
 
   )
