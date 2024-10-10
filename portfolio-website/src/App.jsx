@@ -1,17 +1,16 @@
-import './App.css'
-import Header from './Header'
-import Main_Items from './Main_Items'
+import React from 'react'
+import Header from './components/Header.jsx'
+import About from './components/About'
+import Skills from './components/Skills.jsx'
 
 
-function App() {
-
-
+const App = () => {
   return (
-      <div className="container">
-        <Header/>
-        <Main_Items/>
+    <div className='flex justify-center'>
+      <Header/>
+      <About/>
+      <Skills/>
     </div>
-
   )
 }
 
