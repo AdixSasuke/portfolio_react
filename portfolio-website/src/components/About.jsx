@@ -3,7 +3,7 @@ import pfp from '../assets/pfp.png'
 
 const About = () => {
   return (
-    <div id='about' className='mx-5 my-5 bg-white/30 backdrop-blur-md rounded-3xl flex justify-around mt-32 w-[55%] py-5 '>
+    <div id='about' className='mx-5 my-5 bg-white/30 backdrop-blur-md rounded-3xl flex justify-around mt-32 w-[55%] py-5 z-0'>
         <div className='w-[65%] flex flex-col items-start'>
             <div>
                 <h1 className='text-[36px] font-new font-semibold'>
@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <div>
                 <p className='font-thin'>
-                I am a 2nd-year student of BTech in Computer Science & Engineering at SRM Institute of Science & Technology, Kattankulathur. I enjoy my learning process and enthusiastically strive for new ideas while working collaboratively for innovative solutions.
+                    I am a 2nd-year student of BTech in Computer Science & Engineering at SRM Institute of Science & Technology, Kattankulathur. I enjoy my learning process and enthusiastically strive for new ideas while working collaboratively for innovative solutions.
                 </p>
             </div>
         </div>

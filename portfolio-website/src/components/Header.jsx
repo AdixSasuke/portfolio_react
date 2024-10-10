@@ -5,7 +5,7 @@ const sections = ['About', 'Skills', 'Projects', 'Experience', 'Education']
 
 const Header = () => {
   return (
-    <div className='flex justify-center w-full fixed z-10'>
+    <div className='flex justify-center w-full fixed z-10 top-0'>
       <nav className='m-5 py-3 px-5 rounded-2xl bg-white/30 backdrop-blur-md w-1/4'>
         <ul className='flex justify-evenly text-center'>
           {sections.map((section, index) => (
