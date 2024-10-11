@@ -15,7 +15,7 @@ const Header = () => {
                   to={section.toLowerCase()}
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-80}
                   duration={500}
                   className='cursor-pointer hover:border-b-[3px] py-2 font-new border-y-blue-500'
                 >
